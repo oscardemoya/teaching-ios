@@ -10,13 +10,15 @@ import ObjectMapper
 
 struct Post: Mappable {
     
-    var title: Double?
-    var body: Double?
+    var identifier: Int = 0
+    var title: String?
+    var body: String?
     
     init?(map: Map) {
     }
     
     mutating func mapping(map: Map) {
+        identifier <- map["id"]
         title <- map["title"]
         body <- map["body"]
     }

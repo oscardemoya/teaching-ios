@@ -20,6 +20,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        PostStore.fetchPosts { posts in
+            guard let posts = posts else {
+                return
+            }
+            print(posts)
+        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
