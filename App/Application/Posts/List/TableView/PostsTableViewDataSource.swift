@@ -20,6 +20,7 @@ extension PostsViewController: UITableViewDataSource {
         }
         let index = indexPath.row
         let post = posts[index]
+        cell.delegate = self
         cell.titleLabel.text = post.title
         cell.bodyLabel.text = post.body
         return cell

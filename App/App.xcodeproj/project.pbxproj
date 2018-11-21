@@ -17,6 +17,8 @@
 		F82132DB218DDC46009CD85E /* TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82132DA218DDC46009CD85E /* TableViewDelegate.swift */; };
 		F83E638B218D1C91005BB49A /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83E638A218D1C91005BB49A /* CustomCell.swift */; };
 		F83E638F218D322B005BB49A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83E638E218D322B005BB49A /* DetailsViewController.swift */; };
+		F88C2E4521A0714A0099ED8D /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C2E4421A0714A0099ED8D /* FormViewController.swift */; };
+		F88C2E4721A0827C0099ED8D /* KeyboardSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C2E4621A0827C0099ED8D /* KeyboardSafeArea.swift */; };
 		F8C4B2FE218E148100D9E1B5 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C4B2F9218E148100D9E1B5 /* PostCell.swift */; };
 		F8C4B2FF218E148100D9E1B5 /* PostsTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C4B2FA218E148100D9E1B5 /* PostsTableViewDataSource.swift */; };
 		F8C4B300218E148100D9E1B5 /* PostsTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C4B2FB218E148100D9E1B5 /* PostsTableViewDelegate.swift */; };
@@ -83,6 +85,8 @@
 		F82132DA218DDC46009CD85E /* TableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDelegate.swift; sourceTree = "<group>"; };
 		F83E638A218D1C91005BB49A /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		F83E638E218D322B005BB49A /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		F88C2E4421A0714A0099ED8D /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		F88C2E4621A0827C0099ED8D /* KeyboardSafeArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardSafeArea.swift; sourceTree = "<group>"; };
 		F8C4B2F9218E148100D9E1B5 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		F8C4B2FA218E148100D9E1B5 /* PostsTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTableViewDataSource.swift; sourceTree = "<group>"; };
 		F8C4B2FB218E148100D9E1B5 /* PostsTableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTableViewDelegate.swift; sourceTree = "<group>"; };
@@ -185,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				F815427C2184DC2D00A50969 /* Array.swift */,
+				F88C2E4621A0827C0099ED8D /* KeyboardSafeArea.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -221,6 +226,14 @@
 				F83E638A218D1C91005BB49A /* CustomCell.swift */,
 			);
 			path = TableView;
+			sourceTree = "<group>";
+		};
+		F88C2E4321A071130099ED8D /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				F88C2E4421A0714A0099ED8D /* FormViewController.swift */,
+			);
+			path = Form;
 			sourceTree = "<group>";
 		};
 		F8C4B2E4218E066C00D9E1B5 /* Frameworks */ = {
@@ -265,6 +278,7 @@
 		F8D4847E219F983500EC8861 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				F88C2E4321A071130099ED8D /* Form */,
 				F8D4847F219F984A00EC8861 /* ImageViewController.swift */,
 				F8D48481219F990E00EC8861 /* Image.storyboard */,
 			);
@@ -408,10 +422,12 @@
 				F815426B2184A2A000A50969 /* ViewController.swift in Sources */,
 				F83E638F218D322B005BB49A /* DetailsViewController.swift in Sources */,
 				F8C4B300218E148100D9E1B5 /* PostsTableViewDelegate.swift in Sources */,
+				F88C2E4721A0827C0099ED8D /* KeyboardSafeArea.swift in Sources */,
 				F81542692184A2A000A50969 /* AppDelegate.swift in Sources */,
 				F83E638B218D1C91005BB49A /* CustomCell.swift in Sources */,
 				F8C4B2FF218E148100D9E1B5 /* PostsTableViewDataSource.swift in Sources */,
 				F8C4B301218E148100D9E1B5 /* PostsViewController.swift in Sources */,
+				F88C2E4521A0714A0099ED8D /* FormViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

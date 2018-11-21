@@ -21,6 +21,7 @@ class PostsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.rowHeight = UITableView.automaticDimension
         PostStore.fetchPosts { posts in
             guard let posts = posts else {
                 return
