@@ -1,0 +1,9 @@
+/* Class = "UILabel"; text = "Title"; ObjectID = "lcg-p5-q7x"; */
+"lcg-p5-q7x.text" = "Título";
+
+/* Class = "UIButton"; normalTitle = "Red"; ObjectID = "MWa-CS-GgK"; */
+"MWa-CS-GgK.normalTitle" = "Rojo";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "qW6-yb-hjA"; Note = "This will delete"; */
+"qW6-yb-hjA.normalTitle" = "Botón";
+
